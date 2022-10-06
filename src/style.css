@@ -45,35 +45,70 @@ ul{
     display: flex;
     flex-direction: column;
  }
-/* css for about me section */
- .about-me{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+
+ .social{
+   margin: 20px;
  }
 
- .about-me-text{
-    margin-left: 80px;
-    margin-right: 500px;
+ .logo{
+   height: 80px;
+   margin: 30px;
+
+ }
+/* section controling other sub-sections */
+ .about-me-sub-section{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 0px 80px 0px 80px;
+ }
+
+.project-sub-section{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+}
+
+
+ h2{
+   font-size: 40px;
+ }
+
+ .subtext{
+   font-size: 20px;
+   font-weight: 300;
  }
 
  .profile-picture{
-    margin-right: 350px;
+   width: 500px;
+   border-radius: 360px;
  }
+/* css for about me section */
+
 
  /* css for projects section */
 
- .projects{
+ .project-container{
     display: flex;
-    align-items: center;
     justify-content: space-around;
  }
  .project-card{
-    background-color: rgb(217, 196, 237);
-    border: solid black;
+   width: 300px;
+   height: 500px;
+   margin: 10px;
+   background-color: rgb(217, 196, 237);
+   box-shadow: 5px 5px 20px rgb(16, 16, 18);
+ }
+
+ .project-image{
+   margin-top: 25px;
+   width: 250px;
+   border-radius: 125px;
  }
 
 
 footer{
     height: 500px;
+    background-color: yellow;
 }
