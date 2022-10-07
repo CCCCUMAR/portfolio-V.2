@@ -75,6 +75,10 @@ ul{
    font-size: 40px;
  }
 
+ h3{
+   font-size: 40px;
+ }
+   
  .subtext{
    font-size: 20px;
    font-weight: 300;
@@ -94,6 +98,9 @@ ul{
     justify-content: space-around;
  }
  .project-card{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
    width: 300px;
    height: 500px;
    margin: 10px;
@@ -103,12 +110,27 @@ ul{
 
  .project-image{
    margin-top: 25px;
-   width: 250px;
+   width: 300px;
    border-radius: 125px;
  }
 
+ hr{
+   margin: 0px 30px 0px 30px;
+ }
 
-footer{
-    height: 500px;
-    background-color: yellow;
+ a{ 
+   text-decoration: none;
+ }
+ .project-link{
+   text-decoration: none;
+   font-size: 20px;
+ }
+
+
+.footer{
+   text-align: center;
+   height: 40vh;
+   background-color: rgb(16, 16, 18);
+   
+
 }
